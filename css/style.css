@@ -1,0 +1,157 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("/Images/theater-image-background.png");
+    min-height: 700px;
+  
+    /* Center and scale the image */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  
+  /* Position the navbar container inside the image */
+  .nav-container {
+    position: absolute;
+   }
+  
+  nav {
+    background-color: black;
+    margin: 0;
+    overflow: hidden;
+    font-family: Arial, "Times New Roman", serif;
+  }
+
+  nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    list-style-type: none;
+  }
+
+  nav ul li a {
+    color: white;
+    background-color: #000;
+    display: block;
+    line-height: 3em;
+    padding: 1em 3em;
+    text-decoration: none;
+  }
+
+  nav ul li a.logo {
+    display: inline-block;
+    list-style-type: none;
+    font-size: 150%;
+    float: left;
+    font-family: "Times New Roman", Arial, serif;
+  }
+  
+  nav ul li a:hover {
+    background-color: #424244;
+  }
+
+h1 {
+    color: #fff;
+    position: absolute;
+    top: 200px;
+    left: 620px;
+    height: auto;
+    width: auto;
+    font-size: 100pt;
+    text-align: center;
+}
+
+.grid {
+    display: table;                
+    border-spacing: 5px;
+    width: 60%;
+    border-collapse: collapse;
+}
+
+.row {
+    display: table-row;
+    width: 95%;
+    height: auto;
+    vertical-align: middle;
+    border-bottom: solid 1px #eee;
+    padding: 5px;
+}
+
+  .cell {
+      display: table-cell;
+      table-layout: fixed;
+      width: 200px;
+      vertical-align: middle;
+      overflow: hidden;
+      padding: 10px;
+   }
+
+   button {
+    background-color: #ffa500;
+    color: #fff;
+    padding: 15px;
+}
+
+
+.flexbox-container {
+    display: flex;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.flexbox-item {
+    width: 400px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-info {
+    min-height: 200px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+.flexbox-item-map {
+    min-height: 200px;
+    background-color: #000;
+    border: none;
+}
+
+.flexbox-item-shows {
+    min-height: 200px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
+
+.flexbox-item-social {
+    min-height: 200px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+}
+
+.fas {
+    color: orange;
+}
